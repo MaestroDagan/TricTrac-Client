@@ -1,11 +1,23 @@
 :root {
+  /* 
+  https://coolors.co/8b80f9-06ba63-090302-e1e2ef-dd0426
+  blue: 8b80f9, green: 06ba63, black: 090302, white: e1e2ef, red: dd0426 
+  */
+
+  --black: #090302;
+  --white: #e1e2ef;
+  --red: #dd0426;
+  --green: #06ba63;
+  --blue: #8b80f9;
+
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
-  color: #eef0f2;
-  background-color: #342e37;
+  color: var(--white);
+  background-image: url('/pattern.png');
+  background-color: var(--black);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -45,7 +57,7 @@ h2 {
 }
 
 strong {
-  color: #ef8354;
+  color: var(--blue);
   font-weight: bold;
   font-size: 30px;
   display: block;
@@ -70,14 +82,14 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
-  color: #7d83ff;
+  background-color: var(--black);
+  color: var(--green);
   cursor: pointer;
   transition: border-color 0.25s;
   margin-top: 15px;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--blue);
 }
 button:focus,
 button:focus-visible {

@@ -9,6 +9,13 @@ const routes = [
     },
   },
   { path: '/home', redirect: '/' },
+  {
+    path: '/play',
+    name: 'Play',
+    component: () => {
+      return import('@/views/play.vue');
+    },
+  },
 ];
 
 export default createRouter({
