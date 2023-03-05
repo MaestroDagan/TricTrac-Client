@@ -3,8 +3,14 @@
   "version": "0.0.0",
   "type": "module",
   "main": "dist/index.js",
-  "repository": "https://github.com/MaestroDagan/TricTrac-Client.git",
-  "author": "MaestroDagan <ditisdagan@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaestroDagan/TricTrac-Client.git"
+  },
+  "author": {
+    "name": "Dagan Roosenmaallen",
+    "url": "https://discord.com/users/683217001896083456"
+  },
   "license": "GPL-3.0-only",
   "scripts": {
     "dev": "vite",
