@@ -16,6 +16,13 @@ const routes = [
       return import('@/views/play.vue');
     },
   },
+  {
+    path: '/matchmaking',
+    name: 'Matchmaking',
+    component: () => {
+      return import('@/views/matchmaking.vue');
+    },
+  },
 ];
 
 export default createRouter({
