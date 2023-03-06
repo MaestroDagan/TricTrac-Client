@@ -1,4 +1,5 @@
 export * from './api';
+export * from './errors';
 
 export function getQuery(window: Window) {
   const queryArr = window.location.search.split('?');

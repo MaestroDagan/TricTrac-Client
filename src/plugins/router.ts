@@ -23,6 +23,13 @@ const routes = [
       return import('@/views/matchmaking.vue');
     },
   },
+  {
+    path: '/game',
+    name: 'Game',
+    component: () => {
+      return import('@/views/game.vue');
+    },
+  },
 ];
 
 export default createRouter({
