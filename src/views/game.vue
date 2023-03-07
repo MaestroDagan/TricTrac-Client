@@ -33,7 +33,7 @@ if (!game || !user) {
 }
 
 const players = game.split('-');
-const player = players[user];
+const player = players[parseInt(user)];
 console.log(`🚀 ~ file: game.vue:24 ~ player:`, player);
 const opponent = players.find((p) => p !== player);
 console.log(`🚀 ~ file: game.vue:25 ~ opponent:`, opponent);
