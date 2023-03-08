@@ -30,7 +30,7 @@
 <script lang="ts">
 export default {
   props: ['rotate'],
-  setup(props) {
+  setup(props: { rotate: string }) {
     const rotate = props.rotate ?? 0;
     return {
       rotate,

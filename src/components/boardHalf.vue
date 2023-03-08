@@ -6,7 +6,7 @@
       justify-content: space-between;
     "
   >
-    <boardQuarter rotate="180" />
+    <BoardQuarter rotate="180" />
     <div
       style="
         background-color: var(--white);
@@ -15,10 +15,10 @@
         margin: 25px 0;
       "
     ></div>
-    <boardQuarter />
+    <BoardQuarter />
   </div>
 </template>
 
 <script setup lang="ts">
-import boardQuarter from './boardQuarter.vue';
+import BoardQuarter from '@/components/boardQuarter.vue';
 </script>
